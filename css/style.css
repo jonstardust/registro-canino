@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+   --cor-principal: #c7ac8c;
+   --cor-texto:#252B48;
+   --cor-borda: #394663;
+   --verde: #a9a28f;
+   --background-input: rgb(93, 203, 166);
+   
+}
+
+body {
+   box-sizing: border-box;
+   height: 100vh;
+   background-color: var(--cor-principal);
+}
+
+.conteudo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:5%;
+   padding: 4% 6%
+   
+}
+
+
+.conteudo_inicial {
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ justify-content: space-between;
+ }
+
+.conteudo_titulo {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 2.25rem;
+   color: var(--cor-texto);
+   margin-bottom: 0.8em;
+   text-wrap: nowrap;
+}
+
+.label_login {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: var(--cor-texto);
+}
+
+.input_login {
+   border:2px solid var(--cor-borda);
+   border-radius: 12px;
+   width: 95%;
+   padding: 1em;
+   background-color: var(--background-input);
+   outline: 0;
+}
+
+.botoes_login {
+   display: flex;
+   gap: 25%;
+   margin: 1.3rem 0.3rem 1.3rem 0;
+  
+}
+
+.botao{
+   width: 7.5em;
+   border: 2px solid var(--cor-borda);
+   border-radius: 12px;
+   padding: 0.8em 0;
+   cursor: pointer;
+   font-weight: 700;
+   font-family: 'Montserrat', sans-serif;
+   background-color:transparent;
+   color: var(--cor-texto);
+   background-color: var(--verde);
+}
+
+.criar_conta {
+   margin-top: 0.7rem;
+   font-weight: 400;
+   color: var(--cor-texto);
+}
+
+.apresentacao__redes {
+   display: flex;
+   flex-direction: column;
+   align-items: center ;
+   gap: 20px;
+   margin-left: 0.2rem;
+}
+ .apresentacao__links {
+   text-wrap: nowrap;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 1.3rem;
+   color: var(--cor-texto);
+   text-align: center;
+   margin-top: 1rem;
+  
+ }
+
+.links__navegacao {
+   border: 2.1px solid var(--cor-borda);
+   border-radius: 12px;
+   width: 25vw;
+   padding: 0.7rem 1.0rem;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: var(--cor-texto);
+}
+
+.img_dog {
+   width: 50%;
+   border-radius: 15px;
+
+}
